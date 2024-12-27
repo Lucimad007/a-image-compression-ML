@@ -1,13 +1,13 @@
 
-### K-means Image Compression
+## K-means Image Compression
 
-#### Introduction
+### Introduction
 
 This project demonstrates how K-means clustering can be used to compress images.
 It applies both non-optimized and optimized versions of the algorithm to iconic test images ("Lena" and "Peppers").
 The results highlight how compression reduces file size while preserving visual quality.
 
-#### Prerequisites
+### Prerequisites
 
 Python 3.8 or higher
 
@@ -21,7 +21,7 @@ PIL (Python Imaging Library)
 
 
 
-#### How to Run
+### How to Run
 
 1. Clone the repository or download the project files.
 
@@ -35,7 +35,7 @@ pip install numpy matplotlib pillow
 
 
 
-#### Results
+### Results
 
 Lena Images
 
@@ -71,14 +71,14 @@ Peppers Images
 
 
 
-#### Key Features
+### Key Features
 
 Non-optimized K-means: Implements a basic clustering algorithm for image compression.
 
 Optimized K-means: Uses improved techniques for better speed and efficiency.
 
 
-#### Code Workflow
+### Code Workflow
 
 1. Image Loading: Load images and convert them into arrays using PIL.
 
@@ -101,7 +101,7 @@ Iteratively updates cluster centers to minimize variance.
 
 
 
-#### References
+### References
 
 K-means Clustering Algorithm
 
