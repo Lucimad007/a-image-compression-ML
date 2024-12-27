@@ -58,11 +58,11 @@ Peppers Images
 
 1. Original Image
 
-![Peppers image](./peppers.tif)
+![Peppers image](./peppers.png)
 
 2. Compressed Image (Non-Optimized)
 
-![Peppers image](./outputs/normal-kmeans/peppers/)
+![Peppers image](./outputs/normal-kmeans/peppers/peppers_quantized.png)
 
 3. Compressed Image (Optimized)
 
