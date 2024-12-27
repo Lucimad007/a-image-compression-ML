@@ -9,15 +9,15 @@ The results highlight how compression reduces file size while preserving visual 
 
 ### Prerequisites
 
-Python 3.8 or higher
+- Python 3.8 or higher
 
-Libraries required:
+- Libraries required:
 
-NumPy
+- NumPy
 
-Matplotlib
+- Matplotlib
 
-PIL (Python Imaging Library)
+- PIL (Python Imaging Library)
 
 
 
@@ -28,11 +28,13 @@ PIL (Python Imaging Library)
 
 2. Install the required dependencies:
 
-pip install numpy matplotlib pillow
+- pip install numpy matplotlib pillow
 
 
 3. Open and run the Jupyter Notebook or Python script to process the images.
 
+
+---
 
 
 ### Results
@@ -69,13 +71,13 @@ Peppers Images
 ![Peppers image](./outputs/optimized-kmeans/peppers/peppers_quantized.png)
 
 
-
+---
 
 ### Key Features
 
-Non-optimized K-means: Implements a basic clustering algorithm for image compression.
+- Non-optimized K-means: Implements a basic clustering algorithm for image compression.
 
-Optimized K-means: Uses improved techniques for better speed and efficiency.
+- Optimized K-means: Uses improved techniques for better speed and efficiency.
 
 
 ### Code Workflow
@@ -85,9 +87,9 @@ Optimized K-means: Uses improved techniques for better speed and efficiency.
 
 2. Clustering:
 
-Groups similar pixel intensities using K-means.
+- Groups similar pixel intensities using K-means.
 
-Iteratively updates cluster centers to minimize variance.
+- Iteratively updates cluster centers to minimize variance.
 
 
 
@@ -103,8 +105,8 @@ Iteratively updates cluster centers to minimize variance.
 
 ### References
 
-K-means Clustering Algorithm
+- K-means Clustering Algorithm
 
-Python documentation for NumPy, Matplotlib, and PIL.
+- Python documentation for NumPy, Matplotlib, and PIL.
 
 
